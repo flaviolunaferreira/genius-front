@@ -1,21 +1,19 @@
 * {
-    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
-
 .footer {
-    background-color: rgb(23, 23, 23);
-    border: 3px groove gray;
+    margin: 0.5%;
+    background: linear-gradient(white, gray);
+    border: 2px groove rgb(50, 50, 50);
     box-shadow: 2px 2px 5px black;
     display: flex;
-    justify-content: flex-end;
-    vertical-align: middle;
-    width: 100%;
-    height: 100%;
-    color: antiquewhite;
-}
-
-p {
-    margin: 2px;
-    font-size: 10px;
-    font-style: italic;
+    justify-content: right;
+    width: 99%;
+    height: 4%;
+    overflow: hidden;
+    font-size: 12px;
+    padding-top: 0.6rem;
 }

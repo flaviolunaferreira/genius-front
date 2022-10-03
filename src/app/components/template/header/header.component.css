@@ -1,19 +1,23 @@
 * {
-    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
+
 .header {
-    box-sizing: content-box;
-    background-color: rgb(23, 23, 23);
-    border: 3px groove gray;
-    box-shadow: 2px 2px 5px black;
+    margin: 0.5%;
+    background: linear-gradient(gray, white);
+    border: 2px groove rgb(50, 50, 50);
+    box-shadow: 2px 2px 5px  rgb(50, 50, 50);
     display: flex;
     justify-content: space-between;
-    padding: 2rem 0.3rem;
-    width: 100%;
+    width: 99%;
     height: 8%;
+    overflow: hidden;
 }
 
 .title {
-    color: antiquewhite;
+    color: rgb(20, 20, 20);
     font-size: 1.5rem;
 }

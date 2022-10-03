@@ -1,7 +1,23 @@
 .work {
-    box-sizing: border-box;
+    margin: 0.5%;
+    background-color: rgb(235, 227, 220);
+    border: 1px solid rgb(3, 3, 3);
+    box-shadow: 2px 2px 5px black;
+    display: flex;
+    justify-content: space-between;
+    width: 98.8%;
+    height: 84%;
+    overflow: hidden;
+}
 
-    width: 100%;
+.menu {
+    width: 10%;
     height: 100%;
-    background: rgb(178, 178, 178);
+    background-color: black;
+    box-sizing: border-box;
+}
+
+.work-station {
+    width: 90%;
+    height: 100%;
 }

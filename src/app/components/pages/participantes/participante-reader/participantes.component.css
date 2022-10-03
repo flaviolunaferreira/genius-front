@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.participante {
+    margin: 0.5rem;
+    background-color: rgb(169, 169, 169);
+    width: 98.8%;
+    height: 97.4%;
+}
+
+.filter {
+    padding: 1%;
+    width: 100%;
+    height: 20%;
+    background: rgb(255, 254, 254);
+}
+
+.work-table {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    overflow: auto;
+}
+
+.table {
+    width: 100%;
+    height: 100%;
+    background: rgb(241, 241, 241);
+    overflow: auto;
+}
+
+th {
+    background: rgb(231, 231, 237);
+    font-size: 16px;
+    font-style: italic;
+}
+
+
+.mat-column-idParticipante {
+    width: 6rem;
+    text-align: center;
+}
+
+.mat-column-nomeParticipante {
+    width: 30rem;
+}
+
+.mat-column-matricula {
+    width: 6rem;
+    text-align: center;
+}
+
+.mat-column-plano {
+    width: 6rem;
+    text-align: center;
+}
+
+.mat-column-dataDoCadastro {
+    width: 6rem;
+}
